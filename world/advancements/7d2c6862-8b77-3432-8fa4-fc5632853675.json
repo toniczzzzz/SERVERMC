@@ -1095,20 +1095,6 @@
     },
     "done": true
   },
-  "twilightforest:progress_troll": {
-    "criteria": {
-      "previous_progression": "2025-05-12 17:35:26 -0500"
-    },
-    "done": false
-  },
-  "twilightforest:progress_merge": {
-    "criteria": {
-      "hydra": "2025-05-12 17:35:26 -0500",
-      "snow_queen": "2025-05-12 16:35:30 -0500",
-      "ur_ghast": "2025-05-12 17:05:03 -0500"
-    },
-    "done": true
-  },
   "twilightforest:arborist": {
     "criteria": {
       "towerwood": "2025-05-12 16:59:10 -0500",
@@ -1117,10 +1103,15 @@
     },
     "done": false
   },
-  "twilightforest:progress_hydra": {
+  "tombstone:adventure/create_voodoo_poppet": {
     "criteria": {
-      "was_in_fight": "2025-05-12 17:35:25 -0500",
-      "stroganoff": "2025-05-12 17:24:49 -0500"
+      "has_voodoo_poppet": "2025-05-12 16:14:03 -0500"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2025-05-12 16:14:03 -0500"
     },
     "done": true
   },
@@ -1131,16 +1122,11 @@
     },
     "done": true
   },
-  "tombstone:adventure/create_voodoo_poppet": {
+  "twilightforest:progress_merge": {
     "criteria": {
-      "has_voodoo_poppet": "2025-05-12 16:14:03 -0500"
-    },
-    "done": true
-  },
-  "twilightforest:progress_ur_ghast": {
-    "criteria": {
-      "previous_progression": "2025-05-12 16:52:52 -0500",
-      "was_in_fight": "2025-05-12 17:05:03 -0500"
+      "hydra": "2025-05-12 17:35:26 -0500",
+      "snow_queen": "2025-05-12 16:35:30 -0500",
+      "ur_ghast": "2025-05-12 17:05:03 -0500"
     },
     "done": true
   },
@@ -1151,9 +1137,10 @@
     },
     "done": true
   },
-  "tombstone:adventure/use_reach": {
+  "twilightforest:progress_ur_ghast": {
     "criteria": {
-      "has_magic_scroll": "2025-05-12 16:53:41 -0500"
+      "previous_progression": "2025-05-12 16:52:52 -0500",
+      "was_in_fight": "2025-05-12 17:05:03 -0500"
     },
     "done": true
   },
@@ -1163,9 +1150,28 @@
     },
     "done": true
   },
-  "tombstone:adventure/enchant_voodoo_poppet": {
+  "tombstone:adventure/use_reach": {
     "criteria": {
-      "has_enchanted_voodoo_poppet": "2025-05-12 16:14:03 -0500"
+      "has_magic_scroll": "2025-05-12 16:53:41 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "was_in_fight": "2025-05-12 17:35:25 -0500",
+      "stroganoff": "2025-05-12 17:24:49 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2025-05-12 17:35:26 -0500"
+    },
+    "done": false
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2025-05-12 20:00:20 -0500"
     },
     "done": true
   },
